@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CreateAnId1"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/create_id_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="Name"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/create_id_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_Name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/create_id_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_email"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/create_id_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_password"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/create_id_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_district"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinner_blood_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_area"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/create_id_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_blood_group"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_smartphone_black_24dp"
+            android:hint="Mobile Number"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/create_id_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_mobile"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_cake_black_24dp"
+            android:hint="Age"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/create_id_donatedate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_age"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_blood"
+            android:hint="Donatedate ex: day/month/year"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#FFFFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+        <Spinner
+            android:id="@+id/create_id_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_id_donatedate"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_below="@+id/create_id_gender"
+            android:id="@+id/create_id_btn"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

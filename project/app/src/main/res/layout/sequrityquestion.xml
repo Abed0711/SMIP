@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_id_question"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        />
+
+</RelativeLayout>

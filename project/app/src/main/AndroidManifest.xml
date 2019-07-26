@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abed.smit">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_doctor"
+        android:label="SMIP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AlarmActivity"></activity>
+        <activity
+            android:name=".forget_pass01"
+            android:label="Recovery Password" />
+        <activity
+            android:name=".main_menu"
+            android:label="                        Main Menu" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NearestHospital"
+            android:label="Nearest Hospital" />
+        <activity
+            android:name=".InternationalHospitacl"
+            android:label="International Hospital" />
+        <activity
+            android:name=".SearchBloodActivity"
+            android:label="Find Blood Donor" />
+        <activity
+            android:name=".FindDocActivity"
+            android:label="Find Doctor" />
+        <activity
+            android:name=".SpecialstDoc"
+            android:label="Specialist Doctor" />
+        <activity
+            android:name=".FindMedicineActivity"
+            android:label="Check Medicine" />
+        <activity
+            android:name=".Medicinesearch1"
+            android:label="Find Medicine" />
+        <activity
+            android:name=".Splash"
+            android:label=" ">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrescriptionUpload"
+            android:label="Prescription Upload" />
+        <activity
+            android:name=".LoginMain"
+            android:label=" " />
+        <activity
+            android:name=".CreateAnId1"
+            android:label="Create An Id" />
+        <activity android:name=".EditUserInformation" />
+        <receiver android:name=".AlarmReceiver"/>
+    </application>
+
+</manifest>

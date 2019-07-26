@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">SMIP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_forget_pass01">forget_pass01</string>
+    <string name="title_activity_forget_pass02">forget_pass02</string>
+    <string name="title_activity_forgot_pass03">forgot_pass03</string>
+    <string-array name="Area_name">
+        <item>Select Area</item>
+        <item>Mirpur</item>
+        <item>Saidpur</item>
+        <item>Nilfamari</item>
+        <item>Amtali</item>
+        <item>Dimla</item>
+        <item>Domar</item>
+        <item>Jaldhaka</item>
+        <item>kishoreganj</item>
+        <item>Adabor</item>
+        <item>Badda</item>
+        <item>Banani</item>
+        <item>Chak Bazar</item>
+        <item>Demra</item>
+        <item>Dhamrai</item>
+        <item>Dhanmondi</item>
+        <item>Gulshan</item>
+        <item>Kotwali</item>
+        <item>Mohammadpur</item>
+        <item>Motijheel</item>
+        <item>New Marcket</item>
+        <item>Paltan</item>
+        <item>Ramna</item>
+        <item>Savar</item>
+    </string-array>
+
+    <string-array name="District_name">
+        <item>Select district</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokati </item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong </item>
+        <item>Comilla </item>
+        <item>Cox Bazar </item>
+        <item>Feni </item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj </item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi </item>
+        <item>Rajbari </item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira </item>
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+        <item>Bogra</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Chapai Nawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Lalmonirhat</item>
+    </string-array>
+
+    <string-array name="Sequrity_question">
+        <item>Select question </item>
+        <item>What is your age?</item>
+        <item>when you create your account?</item>
+        <item>Faridpur</item>
+        <item>Falbag</item>
+    </string-array>
+    <string name="title_activity_create_an_id">create_an_id</string>
+    <string name="title_activity_main_menu">main_menu</string>
+    <string name="title_activity_search_doc_checker">search_doc_checker</string>
+    <string name="title_activity_doc_search_matched">doc_search_matched</string>
+    <string name="title_activity_prescription_01">prescription_01</string>
+    <string name="title_activity_recent_prescription_01">recent_prescription_01</string>
+    <string name="title_activity_diagonis_list">diagonis_list</string>
+    <string name="title_activity_medicine_checker_02">Medicine_checker_02</string>
+    <string name="title_activity_medicine_checker_matched">medicine_checker_matched</string>
+    <string name="title_activity_reports_collection">reports_collection</string>
+    <string name="title_activity_show_records">show_records</string>
+    <string name="title_activity_specialist_doctor">specialist_doctor</string>
+
+    <string-array name="Speciality">
+        <item>Select Speciality</item>
+        <item>Cardiology</item>
+        <item>Neurology</item>
+        <item>Medicine</item>
+        <item>Dental</item>
+        <item>Orthopedic</item>
+        <item>Surgery</item>
+        <item>Neonatology</item>
+    </string-array>
+    <string name="title_activity_searchdoctorbyusing">searchdoctorbyusing</string>
+    <string name="title_activity_nearest_hospital">Map</string>
+    <string name="title_activity_progress_bar">progressBar</string>
+    <string name="title_activity_load">load</string>
+    <string name="title_activity_blood_donor">BloodDonor</string>
+
+    <string-array name="blood_group">
+        <item>Select Blood group</item>
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string name="title_activity_international_hospitacl">InternationalHospitacl</string>
+
+    <string name="internationalHospital">
+        1. El Camino Hospital – Mountain View, California\n\nSince opening in 1961, California’s El Camino Hospital has valued the importance of technological advancement. In 1971 it partnered with Silicon Valley company Lockheed to launch the original computerized medical information system. El Camino Hospital’s cutting-edge facility in Mountain View opened to the public in November 2009. Explaining its geographical advantage, urologist Dr. Sari Levine said, “Not only did we get a robot to do a lot of the procedures, we get the newest version because the company’s down the street.” The hospital’s high-tech equipment includes advanced robotic radiosurgery device the CyberKnife. “Literally all the procedures that you can imagine that could help patients in radiation therapy are available here under this roof,” said medical director of the radiation oncology department Dr. Robert Sinha.\n\n2. Fortis Memorial Research Institute – Gurgaon, India\n\n
+        With an impressive network of “super specialty hospitals” and a foothold in three continents, India’s Fortis Healthcare is one of the world’s leading hospital groups. Launched in April 2013 and billed as a “next generation hospital,” Fortis Memorial Research Institute in Gurgaon, India represents the nucleus of the group. The newly opened institute possesses a “complete spectrum of diagnostic and therapeutic technology, including several state-of the-art technologies that are first in the world, first in Asia and first in India,” according to its website. Thanks to its 3 Tesla Digital MRI scanner, Fortis Memorial Research Institute is the first hospital in the world to offer digital broadband MRI imaging. It’s also the first Indian hospital to contain a stem cell lab. Plus, it has a pair of voice-modulated integrated operating theaters, a 256-slice Brilliance iCT scanner, and a revolutionary “Brain Suite” featuring intra-operative CT used for the brain and the spine.\n\n3. Johns Hopkins Hospital – Baltimore, Maryland\n\n
+        The Johns Hopkins Hospital in Baltimore is internationally recognized as one of the leading hospitals in the world, and it has consistently grabbed top honors in U.S. News and World Report’s Best Hospitals list, across various specialties. It was first established in 1889 and today is spread out over around 20 of the Johns Hopkins Medical Campus’ 60 buildings. In May 2012 the hospital opened its new Charlotte R. Bloomberg Children’s Center and Sheikh Zayed Tower facilities, which together cost $1.1 billion dollars to complete. Dr. Edward D. Miller, Johns Hopkins Medicine dean and CEO, described the development as “a transformative milestone in the history of Johns Hopkins Medicine.” The hospital provides the most modern surgical technology available, intra-operative MRI, leading-edge imaging and radiology capabilities, an automated belowground supplies and waste transportation setup, and a high-tech equipment- and staff-locating system.\n\n4. Anadolu Medical Center – Kocaeli, Turkey\n\n
+        Opened in February 2005, the Anadolu Medical Center in Kocaeli, Turkey is considered one of the world’s leading hospitals. Affiliated with the Johns Hopkins School of Medicine in Baltimore, Anadolu is recognized internationally for its ultramodern technology and top surgeons. It is among only a handful of European hospitals able to offer pioneering CyberKnife treatment, which is described as “the most advanced form of radiosurgery.” The hospital also provides TrueBeam radiation therapy, PET/CT medical imaging, telemedicine, linear accelerator machines, and electronic medical records. According to Patients Beyond Borders, “AMC prides itself on its marriage of cutting-edge technology with a patient-friendly environment.” Anadolu ranked seventh in Medical Travel Quality Alliance’s World’s Best Hospitals for Medical Tourists list in 2013.\n\n5. Palomar Medical Center – Escondido, California\n\n
+        In 2012 Palomar Health opened Palomar Medical Center, a revolutionary new facility in San Diego that Bloomberg Businessweek dubbed the “billion dollar hospital of the future.” Michael Covert, the president and CEO of parent company Palomar Health, calls the facility “a living lab.” For starters, eschewing a clipboard and stack of paperwork, registration involves looking into a biometric registration camera for a matter of seconds. Other futuristic touches include the world’s first wireless vital signs device, a pioneering new app that transmits patients’ waveforms to doctors’ special mobile devices, virtual visit-enabling VGo robots, and groundbreaking UV robotic room disinfectant machines. “They basically started with a whole clean sheet on how to design a hospital,” explained Bloomberg Businessweek journalist Sam Grobart.\n\n</string>
+    <string name="title_activity_medicine_search">medicineSearch</string>
+    <string name="precription">Doctor Name : Dr.Md.Sazedul Islam\nMBBS , CCD (Birdem),DLO(BSMMU)\nAssociate Professor - Ex Department of ENT\nPrime Medical College and Hospital,Rangpur.\n\n\nPatient Name : Abed Age : 21 Sex : Male Date:02/05/18\n\nMedicine Name :\n1. Tab-Acos(500mg) Doses: 1+0+1 Day:5 days (Before meal)\n2. Tab-Xlamoso(500mg) Doses:1+0+1 Day:7 days (After meal)\n3. Tab-Fexofast(120mg) Doses:0+0+1 Day:15 days (After meal)\n\nDiagnostic Test:Blood Test(CBC).\n\nNext Appointment: 7 days after.</string>
+    <string name="report">Padda Pathology\n\nPatient Name : Abed Age : 21 Sex : Male\nCollection Date :02-05-18 Time : 14:30\nReceived Date:02-05-18 Time : 15:30\nSPECMEN:Whole Blood\nORDERED:Complete blood count and Wbc\nWhite Blood cell : 6.9(Normal)\nRed Blood cell:1.9(Abnormal)\nHomoglobin:6.5(Abnormal).\n</string>
+    <string name="match">Doctor Name : Dr.Md.Sazedul Islam\nMBBS , CCD (Birdem),DLO(BSMMU)\nAssociate Professor - Ex Department of ENT\nPrime Medical College and Hospital,Rangpur.</string>
+    <string name="BMDC">BMDC :789654\nDoctor Name : Dr.Md.Sazedul Islam\nMBBS , CCD (Birdem),DLO(BSMMU)\nAssociate Professor - Ex Department of ENT\nPrime Medical College and Hospital,Rangpur.</string>
+    <string name="title_activity_specialist_match_show">SpecialistMatchShow</string>
+    <string name="title_activity_blood_donor_match">BloodDonorMatch</string>
+
+
+    <string name="title_activity_medicine_matched">MedicineMatched</string>
+    <string name="title_activity_search_medicine_by">SearchMedicineBy</string>
+    <string name="id">dinajpir</string>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="Confirm">Successfully Created</string>
+    <string name="d">update post</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

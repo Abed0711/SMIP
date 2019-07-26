@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="72dp">
+
+
+        <TextView
+            android:id="@+id/all_user_profile_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserFullNAme"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+
+            android:id="@+id/all_user_profile_Degree1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="degree"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/all_user_profile_specialist1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="specialist"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/all_user_profile_status1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/all_user_profile_age1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/all_user_profile_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+
+
+
+        <TextView
+            android:id="@+id/all_user_profile_cource1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cource"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/all_user_profile_career1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carear"
+            android:textColor="#91DC5A"
+            android:textSize="18sp" android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Name : "
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="Degree "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Specialist: "
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="78dp"
+        android:text="Gender: "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="Age:  "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:text="Mobilr: "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="146dp"
+        android:text="Course: "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:text="Career: "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>
